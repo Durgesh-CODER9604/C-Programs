@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 #include<conio.h>
+#include<math.h>
 void square(int number);
 int main(){
 	
@@ -21,3 +22,4 @@ void square(int number){
 	sq=pow(number,2);
 	printf("squared value:%d\n",sq);
 }
+
